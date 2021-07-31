@@ -34,7 +34,7 @@ public class Main {
             System.out.println(school.teacherList.get(i).getName());
 
         }
-System.out.println("===============Student list");
+        System.out.println("===============Student list");
         for (int i = 0; i < school.studentList.size(); i++) {
             System.out.println(school.studentList.get(i).getName());
 

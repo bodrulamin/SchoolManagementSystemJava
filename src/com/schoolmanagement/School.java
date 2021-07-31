@@ -24,11 +24,9 @@ public class School {
         this.teacherList.add(teacher);
     }
 
-    public List<Teacher> getTeacherList() {
-        return teacherList;
+    void printSchoolDetails(){
+        System.out.println("Shool Details");
     }
 
-    public void setTeacherList(List<Teacher> teacherList) {
-        this.teacherList = teacherList;
-    }
+
 }
