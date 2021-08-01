@@ -17,12 +17,6 @@ public class School {
         return studentList;
     }
 
-    public void addStudent(Student student) {
-        this.studentList.add(student);
-    }
-    public void addTeacher(Teacher teacher) {
-        this.teacherList.add(teacher);
-    }
 
     void printSchoolDetails(){
         System.out.println("Shool Details");

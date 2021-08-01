@@ -10,7 +10,8 @@ public class Main {
         maliha.setFeesPaid(1000);
         maliha.setFeesPaid(10);
 
-        school.addStudent(maliha);
+        school.studentList.add(maliha);
+
 
 
         Teacher mehedi = new Teacher(420, "Mehedi", 100);
@@ -20,8 +21,10 @@ public class Main {
         Teacher yakub = new Teacher(421, "Yakub", 200);
         yakub.setSalary(200);
 
-        school.addTeacher(mehedi);
-        school.addTeacher(yakub);
+        school.teacherList.add(mehedi);
+        school.teacherList.add(yakub);
+
+        school.teacherList.size();
 
 
         System.out.println("School Earned " + School.totalMoneyEarned);
